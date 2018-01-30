@@ -1,0 +1,7 @@
+.metadata/
+.recommenders/
+JavaLanguage/
+*.prefs
+*.class
+*.project
+*.classpath
