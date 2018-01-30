@@ -41,7 +41,7 @@ class ConnectNodesAtSameLevel{
 			nodes.remove();
 			
 			if(n!=null) {
-				n.right = nodes.peek();
+				n.nextRight = nodes.peek();
 				
 				if(n.left!=null)
 					nodes.add(n.left);
@@ -68,7 +68,7 @@ class ConnectNodesAtSameLevel{
 		
 		tree.connectNodes(tree.root);
 		
-		System.out.println(tree.root.left.left.right);
+		System.out.println(tree.root.left.left.nextRight.data);
 		
 	}
 }
