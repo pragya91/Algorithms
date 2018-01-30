@@ -20,6 +20,7 @@ class LevelOrderTraversal{
 		int height = height(root);
 		for(int i=0;i<=height;i++) {
 			printLevel(root, i);
+			System.out.println();
 		}
 	}
 	
